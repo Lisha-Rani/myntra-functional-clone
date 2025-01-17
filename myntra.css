@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,Arial, sans-serif;
+box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    align-items: center;
+    height: 80px;
+    background-color: #fff;
+    width: 100%;
+}
+#logo{
+    margin-left: 1%;
+}
+.myntra {
+    height: 36px;
+    width: 53px; 
+}
+.menu_bar{
+    display: flex;
+    min-width: 405px;
+    justify-content: space-around; 
+    width: 40%;
+}
+.menu_bar a {
+    font-size : 14px;
+    font-weight: 700;
+    letter-spacing : .3px;
+    text-decoration: none;
+    color: rgb(43, 39, 39);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid #ffffff;;
+}
+
+.menu_bar a sup{
+    font-family: Assistant;
+    font-size: 10px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ff3f6c;
+}
+.search_bar{
+    display: flex;
+    background-color: #f5f5f6;
+}
+.icons{
+    height: 20px;
+    color: #282c3f;
+    padding-top: 8px;
+}
+.search{
+    display: flex;
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    color: #696e79;
+    padding: 0px 10px 0px;
+    border: 1px solid #dfdfe8;
+    border-radius: 0 4px 4px 0;
+    background-color: #eeeef4;
+    width: 50%;
+    align-items: center;
+    min-width: 100px;
+    flex-grow: 5;
+    
+}
+.controls{
+    float: right;
+    min-width: 121px;
+    display: flex;
+    margin: 20px 0px 0px 10px;
+    justify-content: space-between;  
+    width: 15%;
+}
+.profiles{
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+}
+.likes{
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+}
+.shop{
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+}
+.profile{
+    bottom: 4px;
+}
+.controls_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+font-weight :700   
+}
+.pseudo:hover{
+    border-bottom: 4px solid #ff3f6c;
+    main{
+        background-color: rgb(14, 26, 26);
+    }
+    
+    
+}
+.kids:hover{
+    border-bottom: 4px solid #f26a10;;
+}
+.home:hover{
+    border-bottom:4px solid #f2c210;;
+}
+.beauty:hover{
+    border-bottom: 4px solid  #0db7af ;
+}
+
+
+.items-container{
+  width: 80%;
+  margin: 25px 10%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.item-container{
+   width: 250px;
+   margin: 10px;
+
+}
+.item-image{
+   width: 100%;
+}
+.rating{
+    font-size: 12px;
+    font-weight: 700;
+}
+.company-name{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 6px;
+}
+.item-name{
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 2px;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+.price{
+    font-size: 14px;
+    line-height: 15px;
+    color: #282c3f;
+    white-space: nowrap;
+    margin-top: 4px;
+}
+.item-price{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+.actual-price{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.discount{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.add-to-cart{
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #ff3e6c;
+    border: 1px solid #ff3e6c;
+    color: #fff;
+    -webkit-box-flex: 3;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bag-item-count{
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.link_container{
+    text-decoration: none;
+
+}
+.link_container:link{
+    color: black;
+}
+.control_name{
+    color: black;
+}
+.bag-page{
+  display: flex;
+  justify-content: center;
+}
+.product_container{
+   display: flex;
+   flex-direction: column;
+   width: 34%;
+   
+}
+.product_image{
+   width: 120px;
+   margin: 10px;
+}
+.product-image{
+    width: 100%;
+}
+.description{
+ width: 33%;
+}
+.return-period{
+   margin: 6px 0;
+}
+.return-period-days{
+  font-weight: 600;
+}
+.bag-summary{
+    margin-left: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #424553;
+    margin-top: 10px;
+    width: 20%;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+}
+.price-details{
+   margin: 10px 0;
+}
+.total-mrp{
+   margin-bottom: 8px;
+   display: flex;
+   justify-content: space-between;
+}
+.mrp{
+   
+  text-align: left;
+}
+.mrp-value{
+  text-align: right;
+}
+.discount-mrp{
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.discount-on-mrp{
+    
+}
+.mrp-discount-value{
+  color: rgb(20, 234, 20);
+}
+.convenience-fee{
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.fee{
+
+}
+.fee-amount{
+   
+}
+.total{
+   margin: 10px 0;
+   display: flex;
+    justify-content: space-between;
+}
+.total-amount{
+   font-weight: 700;
+   padding-right: 55%;
+}
+.total-amount-value{
+   font-weight: 700;
+}
+.place-order{
+
+}
+.place-order-button{
+  width: 100%;
+  height: 30px;
+  color: #f5f5f6;
+  background-color: #e30d4e;
+  border-radius: 2px;
+  border: none;
+}
+.delete{
+    
+    margin-left: 37%;
+}
+.bag-item-container{
+    display: flex;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    
+}
